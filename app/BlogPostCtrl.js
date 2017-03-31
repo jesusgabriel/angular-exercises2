@@ -2,7 +2,7 @@
 (function ()
 {
     'use strict';
-    function BlogPostCtrl($scope, post)
+    function BlogPostCtrl($scope)
       {
       $scope.post=[
         {

@@ -42,9 +42,9 @@ this tree is balanced
 
 
 6. Consider the following tree:
-------5
----2-----8
--1--3
+      5
+   2    8
+ 1  3
 
 
 
@@ -55,9 +55,9 @@ Now add 0 to the tree. Which one is the first node to go out of balance?
 7. How do you fix this node? (Use the following rotation as an example: rightRotation(30), or leftRotation(10))
 
 
-      ------2
-      --1------5
-      0------3---8
+            2
+         1      5
+      0       3   8
 
 
 
@@ -115,8 +115,6 @@ c. Controller
 d. $http
 
 ----$http
-
-
 
 
 14. In order to create a service, you must use the following angular function:
